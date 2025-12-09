@@ -44,8 +44,5 @@ turbo/
 .next/
 out/
 
-# Testing (if added later)
-coverage/
-
 # Local dev artifacts
 *.local
