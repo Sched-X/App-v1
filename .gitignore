@@ -1,0 +1,51 @@
+node_modules# Node modules
+node_modules/
+
+# Build output (tsup)
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files
+.env
+.env.* 
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Temp files
+.tmp/
+temp/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Cache folders
+.cache/
+.eslintcache
+.ts-node
+parcel-cache/
+turbo/
+.next/
+out/
+
+# Testing (if added later)
+coverage/
+
+# Local dev artifacts
+*.local
