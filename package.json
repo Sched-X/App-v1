@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
+  "private": true,
+  "workspaces": [
+    "e2e"
+  ],
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsup src/server.ts --format esm --dts --minify --out-dir dist",
@@ -21,15 +25,19 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.57.0",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
     "@types/sequelize": "^4.28.20",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.3",
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
+    "monocart-reporter": "^2.9.23",
     "prettier": "^3.5.3",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.49.0"
   }
 }
